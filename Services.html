@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Services</title>
+	<link rel="stylesheet" href="servicesstyle.css">
+
+	<link rel="preconnet" href="https://fonts.googleapis.com">
+	<link rel="preconnet" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<a href="index.html"><img src="images/logo.png" class="logo"></a>
+			<nav>
+				<ul id="menuList">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Services.html">Services</a></li>
+					<li><a href="Contacts.html">Contacts</a></li>
+				</ul>
+			</nav>
+			<img src="images/menu1.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+		<div class="h11">
+			<h1><span>Our</span> Services</h1>
+		</div>
+	<section class="Service">
+		<div class="boxx">
+			<i><img src="images/chartt.png"></i>
+			<h4>Trading Signals Provider</h4>
+			<p>We occassionally offer free trading signals in our free telegram channel  and daily trading signals in our paid VIP Signals Group at a fee of $50 Monthly. Join either or both from the button below.</p>
+			<div class="dropdown">
+				<button>Choose Channel &darr;</button>
+				<div class="dropdown-content">
+  					<a href="https://t.me/twcapitol" target="_blank">Free Channel</a>
+  					<a href="https://t.me/twcapitoladmin" target="_blank">VIP Group</a>
+  				</div>
+			</div>
+		</div>
+
+		<div class="boxx">
+			<i><img src="images/accicon.png"></i>
+			<h4>Forex Account Managenent</h4>
+			<p>We offer account management to clients with accounts starting from $50 at a profit cut of 50:50 daily, weekly or monthly as per the client's choice. Send us your account details for account management from the button below.</p>
+			<div class="dropdown">
+				<button>Send details &darr;</button>
+				<div class="dropdown-content">
+  					<a href="https://t.me/twcapitoladmin" target="_blank">Whatsapp DM</a>
+  					<a href="https://www.instagram.com/twcapitol/" target="_blank">Telegram DM</a>
+  					<a href="https://twitter.com/twcapitol" target="_blank">Instagram DM</a>
+  				</div>
+			</div>
+		</div>
+		<div class="boxx">
+			<i><img src="images/aca.png"></i>
+			<h4>Forex Training & Coaching</h4>
+			<p>We share free training materials in our free channel and also offer private training and coaching at a one-time fee of $70. Join our free channel or contact us for private coaching from the button below.</p>
+			<div class="dropdown">
+				<button>Join or Contact us &darr;</button>
+				<div class="dropdown-content">
+  					<a href="https://t.me/twcapitol" target="_blank">Join Free Channel</a>
+  					<a href="Contacts.html">Contacts us</a>
+  				</div>
+			</div>
+		</div>
+
+	</section>
+	<div class="social-links">
+			<a href = "https://www.instagram.com/charlohfx/" target = "_blank"><img src="images/ig.png">
+			<a href = "https://twitter.com/charlohfx" target = "_blank"><img src="images/tw.png">
+			<a href = "https://t.me/charlohfx" target = "_blank"><img src="images/tg.png">
+		</div>
+
+	</div>
+
+	<script>
+		
+		var menuList = document.getElementById("menuList");
+
+		menuList.style.maxHeight = "0px";
+
+		function togglemenu() {
+			
+			if (menuList.style.maxHeight == "0px")
+			{
+				menuList.style.maxHeight = "130px";
+			}
+			else
+			{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+
+	</script>
+
+	<footer class="footer">
+		<div class="container1">
+			<div class="row1">
+				<div class="footer-col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="index.html">Home Page</a></li>
+						<li><a href="Services.html">Our Services</a></li>
+						<li><a href="Contacts.html">Our Contacts</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Get Help</h4>
+					<ul>
+						<li><a href="faqs.html" target = "_blank">FAQs</a></li>
+						<li><a href="tandc.html" target = "_blank">Terms & Conditions</a></li>
+						<li><a href="faqs.html" target = "_blank">About US</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Our Services</h4>
+					<ul>
+						<li><a href="Services.html">Trading Signals</a></li>
+						<li><a href="Services.html">Account Management</a></li>
+						<li><a href="Services.html">Forex Training & Coaching</a></li>
+					</ul>
+				</div>
+				<div class="footer-bottom">
+					<p style="color: linen;">Copyright &copy;2023 charlohfx. By <span>charlohfx</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

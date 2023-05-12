@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<a href="index.html"><img src="images/logo.png" class="logo"></a>
+			<nav>
+				<ul id="menuList">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Services.html">Services</a></li>
+					<li><a href="Contacts.html">Contacts</a></li>
+				</ul>
+			</nav>
+			<img src="images/menu1.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+
+		<div class="row">
+			<div class="col-1">
+				<h2>CHARLOH<br>FX</h2>
+				<h3>Your Financial Future.</h3>
+				<p></p>
+				<h4>Start your journey<br>to Financial Freedom today!</h4>
+				<button type="button" onclick="location.href='Services.html'">JOIN NOW</button>
+			</div>
+			<div class="col-2">
+				<img src="images/logo2.png" class="logo2">
+				
+			</div>
+		</div>
+		
+		<div class="social-links">
+			<a href = "https://www.instagram.com/twcapitol/" target = "_blank"><img src="images/ig.png">
+			<a href = "https://twitter.com/twcapitol" target = "_blank"><img src="images/tw.png">
+			<a href = "https://t.me/twcapitol" target = "_blank"><img src="images/tg.png">
+		</div>
+
+	</div>
+
+	<script>
+		
+		var menuList = document.getElementById("menuList");
+
+		menuList.style.maxHeight = "0px";
+
+		function togglemenu() {
+			
+			if (menuList.style.maxHeight == "0px")
+			{
+				menuList.style.maxHeight = "130px";
+			}
+			else
+			{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+
+	</script>
+
+	<footer class="footer">
+		<div class="container1">
+			<div class="row1">
+				<div class="footer-col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="index.html">Home Page</a></li>
+						<li><a href="Services.html">Our Services</a></li>
+						<li><a href="Contacts.html">Our Contacts</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Get Help</h4>
+					<ul>
+						<li><a href="faqs.html" target = "_blank">FAQs</a></li>
+						<li><a href="tandc.html" target = "_blank">Terms & Conditions</a></li>
+						<li><a href="faqs.html" target = "_blank">About US</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Our Services</h4>
+					<ul>
+						<li><a href="Services.html">Trading Signals</a></li>
+						<li><a href="Services.html">Account Management</a></li>
+						<li><a href="Services.html">Forex Training & Coaching</a></li>
+					</ul>
+				</div>
+				<div class="footer-bottom">
+					<p style="color: linen;">Copyright &copy;2023 charlohfx. By <span>charlohfx</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

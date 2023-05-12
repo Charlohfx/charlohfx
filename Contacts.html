@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact us</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+	<link rel="stylesheet" href="contactsstyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<a href="index.html"><img src="images/logo.png" class="logo"></a>
+			<nav>
+				<ul id="menuList">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Services.html">Services</a></li>
+					<li><a href="Contacts.html">Contacts</a></li>
+				</ul>
+			</nav>
+			<img src="images/menu1.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+
+	<section class="contact">
+		<div class="content">
+			<h2>Talk to us :)</h2>
+			<p><br>Want to get in touch? We'd love to hear from you. <br><br>Here's how you can reach us.</p>
+		</div>
+		<div class="container2">
+			<div class="contactInfo">
+				<div class="box">
+					<div class="icon"><img src="images/em.png"></div>
+					<div class="text">
+						<h3>Emails:</h3>
+						<p><br>&rarr;Support@charlohfx.com<br>
+							<br>&rarr; Info@charlohfx.com</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon"><img src="images/tg.png"></div>
+					<div class="text">
+						<h3>Telegram:</h3>
+						<p><br>&rarr; charlohfx</p>
+					</div>		
+				</div>
+				<div class="box">
+					<div class="icon"><img src="images/ig.png"></div>
+					<div class="text">
+						<h3>Whatsapp:</h3>
+						<p><br>&rarr; 0741 138 109</p>
+					</div>	
+				</div>
+				<div class="box">
+					<div class="icon"><img src="images/tw.png"></div>
+					<div class="text">
+						<h3>Instagram:</h3>
+						<p><br>&rarr; charlohfx</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contactForm">
+			<form>
+				<h2>Send Message</h2>
+				<div class="inputBox">
+					<input type="text" name="" required="required">
+					<span>Full Name</span>
+				</div>
+				<div class="inputBox">
+					<input type="text" name="" required="required">
+					<span>Email</span>
+				</div>
+				<div class="inputBox">
+					<textarea required="required"></textarea>
+					<span>Type your Message...</span>
+				</div>
+				<div class="inputBox">
+					<input type="submit" name="" value="Send">
+				</div>
+			</form>
+		</div>
+	</section>
+</div>
+
+	<div class="social-links">
+			<a href = "https://www.instagram.com/charlohfx/" target = "_blank"><img src="images/ig.png">
+			<a href = "https://twitter.com/charlohfx" target = "_blank"><img src="images/tw.png">
+			<a href = "https://t.me/charlohfx" target = "_blank"><img src="images/tg.png">
+		</div>
+
+	</div>
+
+	<script>
+		
+		var menuList = document.getElementById("menuList");
+
+		menuList.style.maxHeight = "0px";
+
+		function togglemenu() {
+			
+			if (menuList.style.maxHeight == "0px")
+			{
+				menuList.style.maxHeight = "130px";
+			}
+			else
+			{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+
+	</script>
+
+	<footer class="footer">
+		<div class="container1">
+			<div class="row1">
+				<div class="footer-col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="index.html">Home Page</a></li>
+						<li><a href="Services.html">Our Services</a></li>
+						<li><a href="Contacts.html">Our Contacts</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Get Help</h4>
+					<ul>
+						<li><a href="faqs.html" target = "_blank">FAQs</a></li>
+						<li><a href="tandc.html" target = "_blank">Terms & Conditions</a></li>
+						<li><a href="faqs.html" target = "_blank">About US</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Our Services</h4>
+					<ul>
+						<li><a href="Services.html">Trading Signals</a></li>
+						<li><a href="Services.html">Account Management</a></li>
+						<li><a href="Services.html">Forex Training & Coaching</a></li>
+					</ul>
+				</div>
+				<div class="footer-bottom">
+					<p style="color: linen;">Copyright &copy;2023 charlohfx. By <span>charlohfx</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
